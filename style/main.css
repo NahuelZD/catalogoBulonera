@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Taviraj:wght@200&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url(/assets/img/wood.jpg);
+}
+
+.cardImg::after{
+    content: "";
+    background-image: url(/assets/img/logo.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+.cardImg a{
+    z-index: 100;
+}
