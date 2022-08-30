@@ -23,3 +23,8 @@ body {
 .cardImg a{
     z-index: 100;
 }
+
+.modal-body a{
+    color: grey;
+    text-decoration: none;
+}

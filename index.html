@@ -20,6 +20,40 @@
 <body>
     <div class="container-lg">
         <h1 class="fw-bold text-center mt-5 border-bottom border-3 text-white">La Bulonera - Escobar</h1>
+
+        <h2 class="fw-bold text-center mt-5 mb-5 text-white">Ofertas de la semana</h2>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mt-3 bg-secondary bg-gradient" style="border-radius: 15px; --bs-bg-opacity: .5;" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/assets/img/Ofertas/30-08/WhatsApp Image 2022-08-30 at 10.12.03 AM (1).jpeg" class="d-block w-50" alt="..." style="margin: auto;">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/assets/img/Ofertas/30-08/WhatsApp Image 2022-08-30 at 10.12.03 AM (2).jpeg" class="d-block w-50" alt="..." style="margin: auto;">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/Ofertas/30-08/WhatsApp Image 2022-08-30 at 10.12.03 AM (3).jpeg" class="d-block w-50" alt="..." style="margin: auto;">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/Ofertas/30-08/WhatsApp Image 2022-08-30 at 10.12.03 AM.jpeg" class="d-block w-50" alt="..." style="margin: auto;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
         <h2 class="fw-bold text-center mt-5 text-white">Catálogos</h2>
         <div class="row d-flex justify-content-center mt-5">
             <div class="col-md-6 mt-3">
@@ -99,10 +133,10 @@
     </div>
     <footer class="border-3 border-top">
         <!-- Button trigger modal -->
-        <div class="container-lg mt-3 mb-3 d-flex justify-content-center">
+        <div class="container-lg mt-3 mb-3 d-flex justify-content-evenly">
             <button type="button" class="btn btn-outline-light fw-bold" data-bs-toggle="modal"
                 data-bs-target="#exampleModal">
-                La Bulonera - Escobar
+                La Bulonera - Mapa
             </button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -115,15 +149,16 @@
                         </div>
                         <div class="modal-body">
                             <img src="/assets/img/ubicacion.png" alt="" style="width: 100%;">
-                            <p class="mt-3">Av. de los inmigrantes, Colectora Oeste Ramal Escobar y, B1625 Belén de
-                                Escobar, Provincia de Buenos Aires</p>
+                            <a class="mt-3" href="https://goo.gl/maps/usty7d67oEXz2Wd29" target="_blank">Av. de los inmigrantes, Colectora Oeste Ramal Escobar y, B1625 Belén de
+                                Escobar, Provincia de Buenos Aires</a>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         </div>
                     </div>
                 </div>
             </div>
+            <a class="btn btn-outline-light fw-bold" role="button" aria-disabled="true" href="https://www.labulonerasa.com.ar/" target="_blank">La Bulonera - Página oficial</a>
         </div>
     </footer>
 </body>
